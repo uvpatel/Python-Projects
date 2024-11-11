@@ -1,0 +1,121 @@
+# LEVEL 1 (Beginner)
+
+1. Who created Python language?
+Answer: Guido van Rossum
+
+2. Who created C language?
+Answer: Dennis Ritchie
+
+3. Who created C++ language?
+Answer: Bjarne Stroustrup
+
+4. Who created Java language?
+Answer: James Gosling
+
+5. Who created JavaScript language?
+Answer: Brendan Eich
+
+6. Who created Ruby language?
+Answer: Yukihiro Matsumoto
+
+7. Who created PHP language?
+Answer: Rasmus Lerdorf
+
+8. Who created Swift language?
+Answer: Chris Lattner
+
+9. Who created Go (Golang) language?
+Answer: Robert Griesemer, Rob Pike, and Ken Thompson
+
+10. Who created Rust language?
+Answer: Graydon Hoare
+
+11. Who created TypeScript language?
+Answer: Anders Hejlsberg
+
+12. Who created Kotlin language?
+Answer: JetBrains
+
+13. Who created Perl language?
+Answer: Larry Wall
+
+14. Who created MATLAB language?
+Answer: Cleve Moler
+
+15. Who created R language?
+Answer: Robert Gentleman and Ross Ihaka
+
+16. Who created Scala language?
+Answer: Martin Odersky
+
+17. Who created Dart language?
+Answer: Google
+
+18. Who created Erlang language?
+Answer: Joe Armstrong
+
+19. Who created Haskell language?
+Answer: Philip Wadler
+
+20. Who created HTML?
+Answer: Tim Berners-Lee
+
+21. Who created CSS?
+Answer: Håkon Wium Lie
+
+
+# LEVEL 2 (Intermediate)
+
+1. Which data structure follows the First In First Out (FIFO) principle?
+Answer: Queue
+
+2. What is the time complexity of binary search in a sorted array?
+Answer: O(log n)
+
+3. Which sorting algorithm has the worst-case time complexity of O(n^2)?
+Answer: Bubble Sort
+
+4. What is the output of the expression 3 + 2 * 2 in Python?
+Answer: 7
+
+5. Which of the following is not a built-in data type in Python?
+Answer: Queue
+
+6. What keyword is used to define a function in Python?
+Answer: def
+
+7. In object-oriented programming, what concept allows the same function to perform differently based on the object?
+Answer: Polymorphism
+
+8. Which of these is a mutable data structure in Python?
+Answer: List
+
+9. Which method is used to add an element to the end of a list in Python?
+Answer: append()
+
+10. What will be the output of the following code snippet?
+
+x = 10
+y = 20
+x, y = y, x
+print(x, y)
+Answer: 20 10
+
+
+# LEVEL 3 (Expert)
+
+1. What is the time complexity of searching for an element in a balanced B-tree with 'n' elements and maximum degree 'm'?
+Answer: O(log_m n)
+
+2. In concurrent programming, which concept is used to prevent race conditions and ensure proper access to shared resources?
+Answer: Mutex
+
+3. In a red-black tree, which of the following is NOT a property that ensures the tree remains balanced?
+Answer: Every red node must have exactly two black children
+
+4. Which algorithm is known to solve the all-pairs shortest path problem in O(n^3) time complexity?
+Answer: Floyd-Warshall Algorithm
+
+5. What is the primary advantage of using a TRIE (prefix tree) over a hash table for managing a dynamic set of strings?
+Answer: Ability to search for words with shared prefixes efficiently
+

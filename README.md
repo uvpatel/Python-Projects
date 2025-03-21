@@ -2,7 +2,7 @@
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-# 🐍✨ Python Projects Collection
+#  ![Python Logo](./assets/python.png) Python Projects Collection
 
 Welcome to my **Python Projects** repository! This is a curated collection of Python projects ranging from fun games to useful utilities. Each project is crafted to enhance coding skills, solve real-world problems, or just have some coding fun. Dive in and explore!
 

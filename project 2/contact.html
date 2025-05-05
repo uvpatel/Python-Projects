@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me - Patel Urvil.</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>/* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background-color: #000;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .menu-btn {
+            background: none;
+            border: 1px solid #fff;
+            padding: 0.5rem 1rem;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        /* Banner */
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .banner h1 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+        }
+        
+        /* Contact Information */
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+        
+        .info-item p {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Form Section */
+        .contact-form {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .contact-form input, .contact-form textarea {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .contact-form button {
+            padding: 0.75rem;
+            background-color: #FF5A5F;
+            color: #000;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* Social Links */
+        .social-links {
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .social-icon {
+            margin: 0 0.5rem;
+            color: #FF5A5F;
+            font-size: 1.5rem;
+        }
+        
+        /* Map Section */
+        .map {
+            padding: 2rem;
+            background-color: #333;
+        }
+        
+        .map-placeholder {
+            background-color: #555;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #000;
+        }
+        
+        .footer-logo {
+            font-family: 'Cursive';
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .social-links {
+            text-align: center;
+            /* Center the text and icons */
+            margin: 20px 0;
+            /* Add some spacing around the section */
+        }
+
+        .social-links p {
+            font-size: 1.2em;
+            /* Increase font size for the paragraph */
+            margin-bottom: 10px;
+            /* Add space below the paragraph */
+        }
+
+        .social-icon {
+            display: inline-block;
+            /* Make icons inline and allow margins */
+            margin: 0 10px;
+            /* Add horizontal space between icons */
+            transition: transform 0.3s;
+            /* Add a transition effect */
+        }
+
+        .social-icon img {
+            width: 30px;
+            /* Set a width for the icons */
+            height: auto;
+            /* Maintain aspect ratio */
+        }
+
+        /* Optional: Hover effect */
+        .social-icon:hover {
+            transform: scale(1.1);
+            /* Scale up on hover */
+        }
+        .icon-container {
+            display: flex;
+            gap: 20px; /* space between icons */
+        }
+        /* Styling for each icon */
+        .icon {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.2s ease;
+        }
+        /* Hover effect to make it interactive */
+        .icon:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        /* Center the icon container and style it */
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center; /* Centers icons vertically */
+    gap: 20px; /* Space between icons */
+    padding: 20px; /* Adds padding around the container */
+    margin: 50px auto; /* Centers container with margin at the top and bottom */
+    max-width: 400px; /* Limits the width for a compact layout */
+    background-color: #f0f0f0; /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow around container */
+}
+
+/* Icon styling */
+.icon {
+    width: 50px; /* Icon size */
+    height: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for icons */
+.icon:hover {
+    transform: scale(1.2); /* Slightly enlarges the icon on hover */
+    cursor: pointer;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Adds shadow on hover */
+}
+.circular-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;}
+
+  .social-links {
+            text-align: center;
+            /* Center the text and icons */
+            margin: 20px 0;
+            /* Add some spacing around the section */
+        }
+
+        .social-links p {
+            font-size: 1.2em;
+            /* Increase font size for the paragraph */
+            margin-bottom: 10px;
+            /* Add space below the paragraph */
+        }
+
+        .social-icon {
+            display: inline-block;
+            /* Make icons inline and allow margins */
+            margin: 0 10px;
+            /* Add horizontal space between icons */
+            transition: transform 0.3s;
+            /* Add a transition effect */
+        }
+
+        .social-icon img {
+            width: 30px;
+            /* Set a width for the icons */
+            height: auto;
+            /* Maintain aspect ratio */
+        }
+
+        /* Optional: Hover effect */
+        .social-icon:hover {
+            transform: scale(1.1);
+            /* Scale up on hover */
+        }
+        .icon {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: transparent;
+    border-radius: 50%; /* Make it circular if desired */
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+}
+
+/* For smooth hover effect */
+.element:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* For fade-in on scroll */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.element {
+  animation: fadeIn 0.8s ease;
+}
+
+  </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- <div class="logo">KAPANDESAL INC.</div> -->
+        <nav>
+            <button class="menu-btn" onclick="location.href='index.html'">Home</button>
+            <button class="menu-btn" onclick="location.href='resume.html'">Resume</button>
+            <button class="menu-btn" onclick="location.href='skill.html'">skill</button>
+            <button class="menu-btn" onclick="location.href='Projects.html'">Projects</button>
+            
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <h1>Contact me</h1>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="info-item">
+            <p>Phone</p>
+            <img src="phone.jpg" alt="Gmail" class="icon" style="display: block; margin: 0 auto;"><br>
+            <p>+91 9016056853</p>
+        </div>
+        <div class="info-item">
+            <p>Address</p>
+            <img src="location.jpg" alt="Gmail" class="icon" style="display: block; margin: 0 auto;"><br>
+            <p>Anklav,Anand,Gujrat,India</p>
+        </div>
+        <div class="info-item">
+            <p>Email</p>
+            <img src="Gmail.jpg" alt="Gmail" class="icon" style="display: block; margin: 0 auto;"><br>
+            
+            <p>uvpatel7271@gmail.com</p>
+
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="contact-form">
+        <h2>Get in touch with us!</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links -->
+    <!-- <section class="social-links">
+        <p>Connect with us!</p>
+        <img src="/x.jpg" height="20" alt="" srcset="">
+        <img src="/whatsapp.jpg" height="20" alt="" srcset="">
+        <img src="/linkedin.jpg" height="20" alt="" srcset="">
+        <img src="/github.jpg" height="20" alt="" srcset="">
+      
+    </section> -->
+    <div class="icon-container">
+        <!-- Links with icons -->
+        <a href="https://x.com/UrvilPatel_1708" target="_blank">
+            <img src="X (Twitter) app icon.jpg" alt="X Icon" class="icon">
+        </a>
+        <a href="https://www.instagram.com/patelurvilv/" target="_blank">
+            <img src="insta.jpg" alt="insta Icon" class="icon">
+        </a>
+        
+        
+        <a href="https://linkedin.com/in/urvil-patel-6995a0320" target="_blank">
+            <img src="linkedin.jpg" alt="LinkedIn Icon" class="icon">
+        </a>
+        <a href="https://github.com/uvpatel" target="_blank">
+            <img src="github.jpg" alt="GitHub Icon" class="icon">
+       
+    </div>
+
+    <!-- Map Section -->
+    <section class="map">
+        <div class="map-placeholder">
+            <img src="locationmap.jpg" alt="Map Image" style="width: 1550px; height: 270px; display: block; margin: 0 auto;"><br>
+
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- <div class="footer-logo">Kapandesal Events & Productions, Inc.</div> --><br>
+        <p>&copy; 2024 Patel Urvil.</p>
+    </footer>
+</body>
+</html>

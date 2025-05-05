@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel Urvil - Web Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <style>* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background-color: #101010;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #111;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            color: #FF5A5F;
+        }
+        
+        header p {
+            margin-top: 1rem;
+        }
+        
+        header .btn {
+            margin-top: 1.5rem;
+            padding: 0.8rem 2rem;
+            background-color: #FF5A5F;
+            color: #101010;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        
+        section {
+            padding: 2rem;
+        }
+        
+        #about, #skills, #portfolio, #contact {
+            margin-top: 3rem;
+            background-color: #1e1e1e;
+            padding: 3rem 2rem;
+        }
+        
+        #about .stats, #skills .skills-grid, #portfolio .portfolio-grid {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        #skills .skills-grid .skill {
+            background-color: #222;
+            padding: 1rem;
+            width: 120px;
+            border-radius: 5px;
+        }
+        
+        #skills .skills-grid .skill span {
+            display: block;
+            margin-top: 0.5rem;
+        }
+        
+        #portfolio .portfolio-grid .item {
+            width: 150px;
+            height: 150px;
+            margin: 0.5rem;
+            background-color: #333;
+        }
+        
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        #contact form input, #contact form textarea {
+            padding: 1rem;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #222;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        
+        #contact form button {
+            padding: 1rem;
+            background-color: #FF5A5F;
+;
+            border: none;
+            color: #101010;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* For smooth hover effect */
+.element:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* For fade-in on scroll */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.element {
+  animation: fadeIn 0.8s ease;
+}
+
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #111;
+        }
+        </style>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image">
+            <h1>I'm Patel Urvil. <br> Web developement through HTML5 and CSS3 </h1>
+            <p> web designer,& front-end developer focused on crafting clean and user-friendly experiences.</p></div><br>
+            <a href="#" class="btn">More About Me</a>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="personal-info">
+            <p><strong>Personal Infos</strong></p>
+            <p>Name: Patel Urvil</p>
+            <p>Age: 18</p>
+            <p>Email: uvpatel7271@gmail.com</p>
+            <!-- More personal info... -->
+        </div>
+        <!-- <div class="stats"> -->
+            <!-- <div></div> -->
+            <!-- <div> Completed Projects</div> -->
+            <!-- <div>81+ Happy Customers</div> -->
+            <!-- <div>53+ Awards Won</div> -->
+        <!-- </div> -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML5 <span>50%</span></div>
+            <div class="skill">CSS3<span>20%</span></div>
+            <div class="skill">Python<span>40%</span></div>
+            <div class="skill">C<span>35%</span></div>
+            <!-- Other skills... -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="item"><img src="project1.jpg" alt="Project"></div>
+            <div class="item"><img src="project2.jpg" alt="Project"></div>
+            <!-- More portfolio items... -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Your Subject">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Patel Urvil. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

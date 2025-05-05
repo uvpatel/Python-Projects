@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Patel Urvil - Frontend Developer, Python & C Coder, AI/ML Enthusiast" />
+    <title>Patel Urvil - Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <style>
+      /* Reset CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      /* Container */
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: #333;
+        padding: 15px 0;
+        text-align: center;
+      }
+
+      .navbar-link {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        padding: 8px 20px;
+        display: inline-block;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .navbar-link:hover {
+        background-color: #ff0066;
+        color: #fff;
+        border-radius: 5px;
+      }
+
+      /* Header Section */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to right, #ff8a00, #e52e71);
+        color: white;
+        padding: 100px 0;
+      }
+
+      .header-text h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+
+      .header-text .highlight {
+        color: #ff0066;
+      }
+
+      .header-text .tagline {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+      }
+
+      .intro-text span {
+        display: block;
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+
+      .cta-buttons .btn {
+        background-color: #ff0066;
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        border-radius: 5px;
+        font-weight: 600;
+        margin-right: 15px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-buttons .btn:hover {
+        background-color: #e52e71;
+      }
+
+      .header-image img {
+        border-radius: 50%;
+        max-width: 200px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* About Section */
+      .about {
+        background-color: #fff;
+        padding: 50px 0;
+      }
+
+      .about h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+      }
+
+      .about-details p {
+        margin: 8px 0;
+        font-size: 1.1rem;
+      }
+
+      .about-details a {
+        background-color: #ff0066;
+        color: white;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 5px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+      }
+
+      .about-details a:hover {
+        background-color: #e52e71;
+      }
+
+      .about-image img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Footer */
+      .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .footer .social-icons a {
+        margin: 0 15px;
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
+
+      .footer .social-icons a:hover {
+        transform: scale(1.2);
+      }
+
+      .footer p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .footer .social-icons img {
+        width: 30px;
+        height: 30px;
+      }
+
+      /* Media Queries for Responsiveness */
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .header-text h1 {
+          font-size: 2.5rem;
+        }
+
+        .header-image img {
+          width: 150px;
+          height: 150px;
+        }
+
+        .about-content {
+          flex-direction: column;
+        }
+
+        .about-image img {
+          width: 200px;
+          height: 200px;
+        }
+
+        .navbar-link {
+          margin: 0 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-link">Home</a>
+        <a href="about.html" class="navbar-link">About</a>
+        <a href="resume.html" class="navbar-link">Resume</a>
+        <a href="service.html" class="navbar-link">Services</a>
+        <a href="skill.html" class="navbar-link">Skills</a>
+        <a href="contact.html" class="navbar-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="header-text">
+          <h1>Hello!<br />I'm <span class="highlight">Patel Urvil</span></h1>
+          <p class="tagline">Frontend Developer | Python & C Coder | AI Enthusiast</p>
+          <div class="intro-text">
+            <span>I am a student of Computer Engineering</span>
+            <span>Passionate Frontend Developer</span>
+            <span>#Python && C Enthusiast</span>
+          </div>
+          <div class="cta-buttons">
+            <a href="#portfolio" class="btn">My Works</a>
+            <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+          </div>
+        </div>
+        <div class="header-image">
+          <img src="assets/images/profile.jpeg" alt="Profile of Patel Urvil" />
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="assets/images/about.jpeg" alt="About Patel Urvil" />
+          </div>
+          <div class="about-details">
+            <p><strong>Name:</strong> Patel Urvil</p>
+            <p><strong>Date of Birth:</strong> August 17, 2006</p>
+            <p><strong>Location:</strong> Anklav, Anand, Gujarat, India</p>
+            <p><strong>Email:</strong> <a href="mailto:uvpatel7271@gmail.com">uvpatel7271@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919016056853">+91 90160 56853</a></p>
+            <p>I specialize in Python, C programming, and Frontend Development using HTML, CSS, and JavaScript. I enjoy exploring libraries like NumPy and Pandas and am passionate about AI/ML. As a beginner, I love diving into new technologies and working both independently and in teams.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2024 Patel Urvil. All Rights Reserved.</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><img src="assets/icons/github.svg" alt="GitHub" /></a>
+          <a href="#" target="_blank"><img src="assets/icons/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

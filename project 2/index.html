@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patel Urvil - portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+   <!-- navbar -->
+    <nav class="navbar"></nav>
+    <div style="display: flex; justify-content: center; background-color: #333; padding: 10px; border-bottom: 2px solid #444;">
+      <a href="index.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; border-right: 1px solid #555;">
+          Home
+      </a>
+      <a href="about.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; border-right: 1px solid #555;">
+          About
+      </a>
+      <a href="resume.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; border-right: 1px solid #555;">
+          Resume
+      </a>
+      <a href="service.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; border-right: 1px solid #555;">
+          Services
+      </a>
+      <a href="skill.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; border-right: 1px solid #555;">
+          Skills
+      </a>
+      <a href="contact.html" style="color: white; text-decoration: none; padding: 10px; font-size: 18px; width: 120px; height: 50px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+          Contact
+      </a>
+  </div>
+</nav>
+  
+  <script>
+      // JavaScript for hover effect
+      document.querySelectorAll('a').forEach(link => {
+          link.addEventListener('mouseenter', () => {
+              link.style.backgroundColor = '#555';
+              link.style.color = '#ff0066';  // Change text color on hover
+              link.style.transform = 'scale(1.1)';  // Scale up slightly on hover
+          });
+          link.addEventListener('mouseleave', () => {
+              link.style.backgroundColor = '';
+              link.style.color = 'white';
+              link.style.transform = 'scale(1)';  // Reset scale on mouse leave
+          });
+        });
+        </script>
+    
+    
+    
+    <header class="header">
+      <div class="container header-container">
+        <!-- Left side: Text content -->
+        <div class="header-text">
+          <h1>Hello!<br />I'm <span>Patel Urvil</span></h1>
+          <p>Coder</p>
+          <h1 class="intro-text">
+            <span class="text-block">I am a student of Computer Engineering</span>
+            <span class="text-block">Frontend Developer</span>
+            <span class="text-block">#Python && C Coder</span>
+          </h1>
+          <br>
+            <!-- <a href="#" class="btn hire-me">Hire Me</a> -->
+            <a href="#" class="btn my-works">My Works</a>
+          </div>
+        </div>
+        <!-- Right side: Profile image -->
+        <div class="header-image">
+          <img src="/image.jpeg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- Right side: Profile image -->
+<div class="header-image">
+  <img src="" alt="Patel Urvil" class="profile-img" />
+</div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="profile-image">
+            <!-- <img src="image2.jpeg" height="100"alt="Patel Urvil"> -->
+          </div>
+          <div class="about-details">
+            <p><strong>Name:</strong> Patel Urvil</p>
+            <p><strong>Date of Birth:</strong> Agust 17, 2006</p>
+            <p><strong>Address:</strong> Anklav,Anand,Gujarat,India</p>
+            <!-- <p><strong>Zip Code:</strong> 1000</p> -->
+            <p><strong>Email:</strong> uvpatel7271@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9016056853</p>
+            <!-- <p><strong>Project Complete:</strong> </p> -->
+            <br />
+            <a href="" class="btn download-cv">Download My Resume</a>
+            <br><br>
+            <p>I do programming Python , C and in technology I have expertise in HTML, CSS. <br>
+              I explored library like numpy and pandas. I am AI-ML Enthuist.As a biginner i like to explore new tech.<br>
+              I use and learn from AI a lot.</p><br>
+              <p>I am a solo player as well as I love to work in a team also. I am comfortable both ways</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <span>
+        <section>
+          <article>
+            
+
+<style>/* Styling for the intro text */
+  .intro-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 50px;
+    color: transparent;
+    background: linear-gradient(90deg, #ff8a00, #e52e71, #9b00e8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: fadeInText 0.5s ease forwards;
+  }
+  
+  /* Animation for each text-block */
+  .text-block {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideFade 0.7s ease forwards;
+  }
+  
+  /* Delays for sequential text transition */
+  .text-block:nth-child(1) { animation-delay: 0.3s; }
+  .text-block:nth-child(2) { animation-delay: 0.6s; }
+  .text-block:nth-child(3) { animation-delay: 0.9s; }
+  
+  /* Keyframes */
+  @keyframes slideFade {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeInText {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Hover effect */
+  .text-block:hover {
+    color: #ff8a00; /* Text color on hover */
+    transform: scale(1.05);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  </style>
+
+          </article>
+        </section>
+      </span>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        let elements = document.querySelectorAll(".resume");
+        let windowHeight = window.innerHeight;
+
+        elements.forEach(function (element) {
+          let positionFromTop = element.getBoundingClientRect().top;
+
+          if (positionFromTop - windowHeight <= 0) {
+            element.classList.add("show");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

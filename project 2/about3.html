@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urvil Patel's Portfolio</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>/* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Body */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            color: #005f73;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: #0a9396;
+        }
+        
+        /* About Me Section */
+        #about {
+            background-color: #e0fbfc;
+            border-left: 6px solid #3a86ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 700px;
+            transition: background-color 0.3s ease;
+        }
+        
+        #about:hover {
+            background-color: #bee3db;
+        }
+        
+        #about h2 {
+            color: #023047;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        
+        #about p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        /* Skills Section */
+        #skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 700px;
+        }
+        
+        #skills h2 {
+            font-size: 1.8rem;
+            color: #023047;
+            margin-bottom: 20px;
+        }
+        
+        .skill {
+            background-color: #e3f2fd;
+            border: 1px solid #90caf9;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            width: fit-content;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+        .skill:hover {
+            background-color: #90caf9;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        
+        .skill span {
+            font-size: 1rem;
+        }
+        </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Urvil Patel</h1>
+        <p>Computer Science Student & Aspiring Developer</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Urvil, a computer science student passionate about programming and web development. I enjoy exploring new technologies and building projects that challenge my skills. With a strong foundation in C and Python, I’m expanding my expertise to include web frameworks like Django and Flask. My goal is to create solutions that are both functional and visually engaging. Let's connect and build something amazing!
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <span>C Programming</span>
+        </div>
+        <div class="skill">
+            <span>Python</span>
+        </div>
+        <div class="skill">
+            <span>HTML</span>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+        </div>
+        <!-- Additional skills can go here -->
+    </section>
+</body>
+</html>

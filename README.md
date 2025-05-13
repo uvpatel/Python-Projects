@@ -19,31 +19,28 @@ Welcome to my **Python Projects** repository! This is a curated collection of Py
 
 ---
 
-## 🚀 Projects Overview
+## 📂 Project List
 
-Here's a sneak peek into some of the projects you'll find in this repository:
-
-1. **Quiz Game** 🎮
-   - *Description*: A fun and interactive quiz game that tests your knowledge on various topics.
-   - *Features*: Multiple-choice questions, score tracking, and timed responses.
-
-2. **Rent Calculator** 🏠
-   - *Description*: A utility to calculate rent splits among roommates, ensuring fair distribution based on room sizes and amenities.
-   - *Features*: Customizable inputs, detailed breakdowns, and exportable reports.
-
-3. **Spelling Checker** ✅
-   - *Description*: A tool to check and correct spelling mistakes in a given text.
-   - *Features*: Suggestions for incorrect words, integration with text editors, and support for multiple languages.
-
-4. **Tic-Tac-Toe** ❌⭕
-   - *Description*: The classic tic-tac-toe game implemented with a sleek GUI.
-   - *Features*: Single-player (against AI) and two-player modes, score tracking, and customizable themes.
-
-5. **Number Guessing Game** 🔢
-   - *Description*: A simple game where the player has to guess a randomly generated number within a range.
-   - *Features*: Adjustable difficulty levels, hints, and score tracking.
+| Project Name             | Description                                                                 | 🔗 |
+|-------------------------|-----------------------------------------------------------------------------|----|
+| **Binary Search**        | Implementation of the binary search algorithm with visualization.           | 🔍 |
+| **Currency Converter**   | Converts currency values based on real-time exchange rates.                 | 💱 |
+| **Decoder**              | Decodes encoded messages using various algorithms.                          | 🗝️ |
+| **Email Slicer**         | Extracts username and domain from an email address.                         | ✉️ |
+| **Number Guessing Game** | A game where the player guesses a randomly generated number.                | 🎲 |
+| **Quiz Game**            | Interactive quiz game with multiple-choice questions and score tracking.    | ❓ |
+| **Rent Calculator**      | Calculates fair rent splits among roommates based on inputs.                | 🏠 |
+| **Snake, Water, Gun**    | Command-line game based on the traditional "Rock, Paper, Scissors" variant. | 🐍💧🔫 |
+| **Spelling Checker**     | Detects and suggests corrections for spelling mistakes in a given text.     | 📝 |
+| **Tic-Tac-Toe**          | Classic Tic-Tac-Toe game with single and two-player modes.                  | ❌⭕ |
+| **Chat Python**          | Simple chat application implemented in Python.                              | 💬 |
+| **Mark 1**               | Basic project demonstrating fundamental Python concepts.                    | 📊 |
+| **Maths/Trigonometry**   | Projects related to mathematical computations and trigonometric functions.  | 📐 |
+| **Project 2**            | Placeholder for an upcoming or experimental project.                        | 🚧 |
+| **Word Replace**         | Replaces specific words in a text with user-defined alternatives.           | 🔄 |
 
 *Each project resides in its own folder with detailed instructions on setup and usage.*
+---
 
 ## ❓ Why This Repository?
 
@@ -64,14 +61,40 @@ This repo reflects my **growth journey in Python development** 🚀 — from sim
 
 ---
 
-## 📥 Installation
+## 📚 Requirements
 
-To get started with any of these projects:
+Most projects use standard Python libraries.  
+For projects that need additional packages, instructions will be provided in their respective folders.
 
-1. **Clone the Repository**:
+> ✅ Recommended Python Version: **Python 3.8+**
+
+---
+
+## 🙌 Contributing
+
+Want to contribute your own project or improve existing ones?  
+Feel free to fork this repository, make changes, and open a pull request! Contributions are welcome. 💡
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/uvpatel/Python-Projects.git
    cd Python-Projects
+   ```
+
+2. **Navigate to the project folder you want to explore**  
+   Each project contains a separate directory with its own Python script(s) and instructions.
+
+3. **Run the Python files**  
+   Example:
+   ```bash
+   python project_name.py
+   ```
+   
+---
 
 ## 📬 Connect with Me
 
@@ -83,4 +106,8 @@ To get started with any of these projects:
 
 This project is licensed under the **MIT License** - feel free to use, modify, and share it! 😊  
 See the [LICENSE](LICENSE) file for more details.
-   
+
+---  
+> ⭐ If you like this repository, don't forget to give it a star!
+
+---
